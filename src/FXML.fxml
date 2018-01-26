@@ -9,7 +9,7 @@
    <center>
       <AnchorPane id="fmConsultaDeItens" prefHeight="531.0" prefWidth="682.0">
          <children>
-            <Button layoutX="557.0" layoutY="452.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="86.0" text="Consultar" />
+            <Button fx:id="btPesquisar" layoutX="557.0" layoutY="452.0" mnemonicParsing="false" onAction="#pesquisar" prefHeight="29.0" prefWidth="86.0" text="Consultar" />
             <TextField fx:id="txtPesquisa" layoutX="55.0" layoutY="452.0" prefHeight="26.0" prefWidth="487.0" />
          </children>
       </AnchorPane>
